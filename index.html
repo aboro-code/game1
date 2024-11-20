@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="player1">
+        <h1>Welcome Player 1</h1>
+        <!-- <label for="name">Username:</label>
+        <br> -->
+        <input type="text" name="name" id="name1" placeholder="Enter your name..." required>
+        <br>
+        <br>
+        <button id="start1">To player 2...</button>
+    </div>
+    <div class="container" id="player2">
+        <h1>Welcome Player 2</h1>
+        <!-- <label for="name">Username:</label>
+        <br> -->
+        <input type="text" name="name" id="name2" placeholder="Enter your name..." required>
+        <br>
+        <br>
+        <button id="toMainGame">Continue to main game...</button>
+    </div>
+    <div class="container" id="maingamePlayer1">
+        <h1>Player 1:
+            <span id="displayname1"></span>
+        </h1>
+        <h2>Guess a number between 1 and 100</h2>
+        <input type="number" name="guess" id="guess" placeholder="Enter your guess" required>
+        <button id="submit1">Guess</button>
+        <p id="msg"></p>
+        <p id="a1">Attempts: <span id="attempts"></span> </p>
+        <button id="next">Player 2 turn.</button>
+        
+    </div>
+    <div class="container" id="maingamePlayer2">
+        <h1>Player 2: <span id="displayname2"></span></h1>
+        <h2>Guess a number between 1 and 100</h2>
+        <h6>note: number can be different or same.</h6>
+        <input type="number" name="guess" id="guess2" placeholder="Enter your guess" required>
+        <button id="submit2">Guess</button>
+        <p id="msg2"></p>
+        <p id="a2">Attempts: <span id="attempts2"></span> </p>
+        <button id="resultbtn">Show result</button>
+        
+    </div>
+    <div class="container" id="result">
+        <h2 id="resultText"></h2>
+        <button id="restart">Restart</button>
+    </div>
+    <script src="logic.js"></script>    
+</body>
+</html>

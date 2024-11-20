@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 40%;
+    padding: 20px;
+    margin: 10% auto;
+    border-radius: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resultbtn, #result, #restart, #player2, #maingamePlayer1, #maingamePlayer2, #next {
+    display: none;
+}
+
+#player1 {
+    display: block;
+}
+
+#player1 label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.container button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #0056b3;
+}
+
+#next {
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+
+#resultbtn, #result, #restart, #next {
+    display: none;
+    margin: 0 auto;
+}
