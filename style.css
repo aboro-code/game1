@@ -9,7 +9,7 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-#resultbtn, #result, #restart, #player2, #maingamePlayer1, #maingamePlayer2, #next {
+#resultbtn, #result, #restart, #player2, #maingamePlayer1, #maingamePlayer2, #next, #correctmsg1, #correctmsg2 {
     display: none;
 }
 

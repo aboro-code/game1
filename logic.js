@@ -24,6 +24,10 @@ let a2 = document.getElementById("a2");
 let resultbtn = document.getElementById("resultbtn");
 let resultText = document.getElementById("resultText");
 let resultdiv = document.getElementById("result");
+let correctmsg1 = document.getElementById("correctmsg1");
+let correctmsg2 = document.getElementById("correctmsg2");
+let correct1 = document.getElementById("correct1");
+let correct2 = document.getElementById("correct2");
 
 function player1() {
     player1div.style.display = "none";
@@ -56,9 +60,8 @@ function check1() {
         submitBtn1.style.display = "none";
         a1.style.display = "none";
         guess.style.display = "none";
-
-
-
+        correctmsg1.style.display = "block";
+        correct1.innerHTML = score1;
     } else if (usernum > cnum) {
         message.innerHTML = "Too high! Try again";
         message.style.color = "red";
@@ -101,7 +104,8 @@ function check2() {
         guess2.style.display = "none";
         a2.style.display = "none";
         resultbtn.style.display = "block";
-
+        correctmsg2.style.display = "block";
+        correct2.innerHTML = score2;
 
     } else if (usernum2 > cnum) {
         message2.innerHTML = "Too high! Try again";
