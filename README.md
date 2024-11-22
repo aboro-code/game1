@@ -165,4 +165,13 @@ after player2 guessed correctly shows button to display results.
 
 result screen and restart button.
 
-note:number of attempts should be shown after players turn ends for cleaner UI.
+note:number of attempts should be shown after players turn ends for better UI.
+
+update1:added number of attempts after respective player turns
+
+
+
+
+![Screenshot 2024-11-22 142153](https://github.com/user-attachments/assets/cb29048d-7b01-47e0-a427-e2e3da5af677)
+
+
