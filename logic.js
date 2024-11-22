@@ -41,7 +41,7 @@ function mainGame() {
 startMainGame.addEventListener("click", mainGame);
 
 function check1() {
-    alert(cnum);
+    //alert(cnum);
     mainGame1Div.style.display = "block";
     mainGame2Div.style.display = "none";
     //resBtn.style.display = "block";
@@ -80,7 +80,7 @@ function nextTurn() {
     cnum= Math.floor(Math.random() * 100) + 1;
 }
 function check2() {
-    alert(cnum);
+    //alert(cnum);
 
     player1div.style.display = "none";
     player2div.style.display = "none";
